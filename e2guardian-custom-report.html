@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="@jrodrigomor" >
+<title>E2Guardian - Acesso Negado</title>
+<style>
+* {
+        font-family: Helvetica, sans-serif;
+        color: #444;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+}
+
+p {
+        font-size: 1.em;
+        padding: 0.5em;
+}
+
+header h1 {
+        font-size: 2em;
+        color: #fff;
+        background-color: #a00;
+        padding: 0.5em;
+}
+p strong a {
+        color: #f33;
+}
+p strong a:hover{
+        background-color: #f33;
+        color: #fff;
+}
+span, span a    {
+        color: #55f;
+}
+footer p {
+        font-size: 0.6em;
+        color: #777;
+}
+img {
+        height: auto;
+}
+</style>
+</head>
+<body>
+<header><h1>Atenção: O Acesso foi negado!</h1></header>
+<br>
+<section>
+<p>Caro(a) usuário(a) <strong><a href="#">-USER-</a></strong>, endereço IP <strong><a href="#">-IP-</a></strong>:</p>
+<p>Você está tentado acessar o conteúdo de:</p>
+<p><strong><a href="#">-URL-</a></strong></p>
+<p>Mas o acesso foi negado devido a seguinte razão:</p>
+<p><strong><a href="#">-REASONGIVEN-</a></strong></p>
+<p>Categoria: <strong><a href="#">-CATEGORIES-</a></strong></p>
+<p>Você está vendo esta mensagem porque o que você tentou acessar parece conter material que foi julgado impróprio.</p>
+<!-- Se tiver uma política de uso de internet em sua empresa, disponibilize o link de acesso abaixo (pode ser uma página html, arquivo pdf etc). ) -->
+<p>Este conteúdo pode estar em desacordo com a <span><a href="#" >Política de Uso de Internet da Empresa XXX</a></span>.</p>
+<p>Caso <span>não concorde com este bloqueio</span>, entre em contato com a área de Tecnologia.</p>
+</section>
+<br>
+<!-- link para logo e nome da empresa -->
+<img src="#" width="100" alt="Nome da Empresa Aqui">
+
+<footer>
+<p>Powered by E2Guardian</p>
+<p>Empresa XXX - 2021</p>
+</footer>
+</body>
+</html>
